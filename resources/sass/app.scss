@@ -1,0 +1,35 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+
+// Variables
+@import "variables";
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// Toastr JS
+@import "~toastr";
+
+// Sweetalert2
+@import "~sweetalert2/src/sweetalert2.scss";
+
+// Custom Utilities Classes
+.cursor-pointer,
+.cursor-pointer::before,
+.cursor-pointer::after {
+    cursor: pointer;
+}
+
+.word-break-all {
+    word-break: break-all;
+}
+
+@media print {
+    .noprint {
+        display: none;
+        visibility: hidden;
+    }
+}
