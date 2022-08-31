@@ -31,7 +31,7 @@ class DashboardController extends Controller
         $recent_dues = Due::latest()->limit(5)->get();
         $recent_cashes = Cash::latest()->limit(5)->get();
 
-        $total_end = $total_transactions_d + (Due::where('type', 1)->whereNull('paid_at')->sum('amount') - Due::where('type', 0)->whereNull('paid_at')->sum('amount'));
+        $total_end = $total_transactions_d + (Due::where('type', 1)->whereNotNull('paid_at')->sum('amount') - Due::where('type', 0)->whereNotNull('paid_at')->sum('amount'));
         $total_cash_total_all = $total_end == $total_cash_d ? true : false;
         $diff_cash_all = $total_cash_d - $total_end;
 

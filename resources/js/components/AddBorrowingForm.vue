@@ -98,8 +98,8 @@
                         <label
                             class="col-md-3 mb-0 text-center"
                             for="created_at"
-                            >{{ trans("main.created_at") }}:</label
-                        >
+                            >{{ trans("main.created_at") }}:
+                        </label>
                         <div class="col-md-9">
                             <input
                                 type="datetime-local"
