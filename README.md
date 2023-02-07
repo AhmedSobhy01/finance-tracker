@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://www.github.com/AhmedSobhy01/finance-tracker">
-    <img src="https://finance-tracker.ahmedsobhy.net/storage/logos/instagram_logo.png" alt="Logo" width="80" height="80">
+    <img src="https://icon-library.com/images/money-png-icon/money-png-icon-5.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Finance Tracker</h3>
